@@ -1,0 +1,23 @@
+.shoppingCart {
+  border: 3px solid black;
+  height: 300px;
+  width: 500px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  background: skyblue;
+  overflow: scroll;
+}
+
+.heading {
+  height: 30px;
+  width: 500px;
+  color: black;
+  font-weight: 1000;
+}
+
+li {
+  float: left;
+  margin-left: 20px;
+  color: blue;
+}

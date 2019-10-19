@@ -1,0 +1,8 @@
+.Itemdiv {
+  height: 100px;
+  width: 170px;
+  border: 1px solid red;
+  float: left;
+  margin-left: 20px;
+  color: blue;
+}
