@@ -34,7 +34,7 @@ class Button extends React.Component {
         <div className="buttons">
           <button onClick={this.countIncrement.bind(this)}> + </button>{" "}
           <button onClick={this.countDecrement.bind(this)}> - </button>{" "}
-          <button onClick={this.props.delItem(this.props.index)}> X</button>{" "}
+          <button onClick= () => {this.props.delItem(this.props.index)}> X</button>{" "}
           {this.state.count}
         </div>{" "}
       </div>
